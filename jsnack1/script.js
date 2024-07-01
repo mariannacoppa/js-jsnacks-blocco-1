@@ -20,4 +20,11 @@ button.addEventListener('click', function () {
             found_invitati = true;
         }
     }
-})
+    // creo messaggio con contenuto in base al valore della variabile di controllo
+    if (found_invitati === true) {
+        alert(`Dear ${guest.toLowerCase()}, you are welcome to the Party`);
+    }
+    else {
+        alert(`Sorry ${guest.toLowerCase()}, your entry is not granted`);
+    }
+});
