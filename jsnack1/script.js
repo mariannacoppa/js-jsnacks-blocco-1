@@ -11,6 +11,7 @@ button.addEventListener('click', function () {
     // recupero il valore inserito nel campo input
     let guest = document.getElementById('name').ariaValueMax.toLowerCase();
     console.log(guest);
-
+    // inserisco variabile di controllo flag
+    let found_invitati = false;
 
 })
