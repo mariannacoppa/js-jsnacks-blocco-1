@@ -8,5 +8,9 @@ console.log(invitati);
 const button = document.getElementById("submit");
 // aggiungo evento al tag button
 button.addEventListener('click', function () {
-    // 
+    // recupero il valore inserito nel campo input
+    let guest = document.getElementById('name').ariaValueMax.toLowerCase();
+    console.log(guest);
+
+
 })
