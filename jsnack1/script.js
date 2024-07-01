@@ -13,5 +13,11 @@ button.addEventListener('click', function () {
     console.log(guest);
     // inserisco variabile di controllo flag
     let found_invitati = false;
-
+    // ciclo l'array e confronto l'elemento da cercare con la mail inserita nel form
+    for (let i = 0; i < invitati.lenght; i++) {
+        if (invitati[i].toLowerCase() === guest) {
+            // se la condizione è vera, imposto la variabile di controllo true
+            found_invitati = true;
+        }
+    }
 })
