@@ -4,3 +4,9 @@
 // definisco elenco degli invitati
 const invitati = ["Jay", "Daisy", "Nick", "Patrick", "Scott", "Francis", "Susan", "Edward", "Stuart"];
 console.log(invitati);
+// recupero il pulsante dal DOM
+const button = document.getElementById("submit");
+// aggiungo evento al tag button
+button.addEventListener('click', function () {
+    // 
+})
