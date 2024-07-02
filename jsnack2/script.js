@@ -11,3 +11,5 @@ for (let i = 0; i <= 6; i++) {
         numbers.push(num);
     }
 }
+// mostro l'array
+console.log(numbers);
