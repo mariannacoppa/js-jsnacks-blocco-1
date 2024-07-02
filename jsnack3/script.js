@@ -15,4 +15,7 @@ document.getElementById('number').addEventListener('click', function () {
         // mostro la variabile
         console.log(somma);
     }
-})
+    else {
+        alert('Non hai inserito un numero di 4 cifre');
+    }
+});
