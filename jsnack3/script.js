@@ -3,4 +3,8 @@
 document.getElementById('number').addEventListener('click', function () {
     // recupero il valore dal campo input inserito dall'utente
     let num = document.getElementById('number').value;
+    // verifico che il valore inserito sia lungo esattamente 4 cifre
+    if (num.length === 4) {
+        
+    }
 })
